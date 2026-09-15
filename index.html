@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NCN — No Caption Needed</title>
+<meta name="description" content="NCN Clothing — premium heavyweight streetwear. No Caption Needed.">
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"><link rel="preload" as="image" href="assets/night_black.webp" fetchpriority="high">
+<style>
+/* ===== NCN SPEED LAYER — visual effects stay intact ===== */
+.product-card, .lookbook-card, .campaign-card {
+  content-visibility: auto;
+  contain-intrinsic-size: 520px;
+}
+img {
+  image-rendering: auto;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .product-card img, .lookbook-card img, .campaign-card img {
+    will-change: transform;
+  }
+}
+</style></head>
+<body>
+<!-- NCN SUPERCOOL EXPERIENCE -->
+<div class="sc-cursor"><span id="scCursorText">VIEW</span></div>
+<div class="sc-vignette"></div>
+<div class="sc-grid"></div>
+<div id="loader"><div class="loader-logo">NCN</div><div class="loader-line"></div><small>NO CAPTION NEEDED</small></div>
+
+<div class="announcement"><span>DROP 01 / 2026</span><span>220 GSM · HEAVYWEIGHT · 100% COTTON</span><span>FIRST ORDER — 15% OFF</span></div>
+
+<header class="nav">
+  <a class="brand" href="#home" aria-label="NCN home"><span>NCN</span><em>NO CAPTION NEEDED</em></a>
+  <nav>
+    <a href="#home">HOME</a><a href="#shop">SHOP</a><a href="#story">OUR STORY</a><a href="#experience">EXPERIENCE</a><a href="#contact">CONTACT</a>
+  </nav>
+  <div class="nav-actions">
+    <button id="searchBtn" class="icon-btn">⌕</button>
+    <button id="wishlistBtn" class="icon-btn">♡ <b id="wishCount">0</b></button>
+    <button id="cartBtn" class="icon-btn">BAG <b id="cartCount">0</b></button>
+    <button id="menuBtn" class="menu-btn">MENU</button>
+  </div>
+</header>
+
+<div id="mobileMenu" class="mobile-menu" aria-hidden="true">
+  <div class="mobile-menu-head"><span>NCN / MENU</span><button id="mobileMenuClose" type="button">CLOSE ×</button></div>
+  <nav>
+    <a href="#home">HOME</a><a href="#shop">SHOP</a><a href="#story">OUR STORY</a><a href="#experience">EXPERIENCE</a><a href="#contact">CONTACT</a>
+  </nav>
+</div>
+
+<div id="searchPanel" class="overlay-panel">
+  <div class="panel-inner"><input id="searchInput" placeholder="Search NCN products..."><button class="close-panel">×</button></div>
+</div>
+
+<main id="home">
+<section class="hero">
+  <div class="hero-grid"></div>
+  <div class="hero-copy">
+    <div class="eyebrow"><span>NCN CLOTHING</span><span>DROP 01 / 2026</span></div>
+    <h1><span>NO</span><span class="outline">CAPTION</span><span>NEEDED.</span></h1>
+    <p>Heavyweight streetwear for people who don't need to explain the fit.</p>
+    <div class="hero-buttons"><a href="#shop" class="btn light">SHOP THE DROP ↘</a><a href="#story" class="text-btn">OUR STORY</a></div>
+  </div>
+  <div class="hero-product">
+    <div class="orbit"></div>
+    <div class="hero-tag">07. RISING</div>
+    <img src="assets/night_black.webp" alt="NCN Night City Tee" loading="eager" fetchpriority="high" decoding="async">
+    <div class="hero-caption"><span>FRONT / BACK</span><strong>220 GSM</strong></div>
+  </div>
+  <div class="hero-scroll">SCROLL TO EXPLORE ↓</div>
+</section>
+
+<section class="ticker"><div>NCN / NO CAPTION NEEDED / 220 GSM / HEAVYWEIGHT / 100% COTTON / WASHED FINISH / NCN / NO CAPTION NEEDED / 220 GSM / HEAVYWEIGHT /</div></section>
+
+<section id="shop" class="section shop">
+  <div class="section-head"><div><span class="kicker">01 — THE DROP</span><h2>BUILT TO BE<br><i>WORN.</i></h2></div><div class="shop-tools"><button class="filter active" data-filter="all">ALL</button><button class="filter" data-filter="black">BLACK</button><button class="filter" data-filter="white">WHITE</button><button class="filter" data-filter="sand">SAND</button><button class="filter" data-filter="graphic">GRAPHIC</button></div></div>
+  <div id="productGrid" class="product-grid"></div>
+</section>
+<section id="story" class="section story">
+  <div class="story-left"><span class="kicker">02 — OUR STORY</span><h2>NO NEED TO<br><i>EXPLAIN.</i></h2><p>NCN — No Caption Needed — was built around a simple idea: the clothes should speak before you do. We combine heavyweight everyday pieces with bold, understated graphics and a premium streetwear attitude.</p><p>Every drop is designed to feel intentional, wearable and unmistakably NCN.</p><a href="#contact" class="text-btn">MEET THE PEOPLE BEHIND NCN →</a></div>
+  <div class="founders"><div class="founder-card"><span>FOUNDER</span><strong>Hirun Fonseka</strong><small>Creative direction · brand vision</small></div><div class="founder-card"><span>CO-FOUNDER</span><strong>Sanura Thiranjith</strong><small>Operations · growth · community</small></div></div>
+</section>
+
+<section id="experience" class="section experience">
+  <div class="section-head"><div><span class="kicker">03 — THE NCN EXPERIENCE</span><h2>MORE THAN<br><i>A TEE.</i></h2></div></div>
+  <div class="experience-grid">
+    <article><span>01</span><h3>WEAR IT.</h3><p>Heavyweight 220 GSM cotton, oversized proportions and premium DTF graphics.</p></article>
+    <article><span>02</span><h3>LIVE IT.</h3><p>Designed for everyday movement, late nights and the moments worth remembering.</p></article>
+    <article><span>03</span><h3>SHARE IT.</h3><p>Tag NCN and become part of the community. Real people. Real fits.</p></article>
+    <article><span>04</span><h3>BECOME NCN.</h3><p>Follow the next drop, unlock hidden pages and stay close to the brand.</p></article>
+  </div>
+</section>
+
+<section class="size-section">
+  <div><span class="kicker">05 — FIND YOUR FIT</span><h2>GET THE<br><i>RIGHT SIZE.</i></h2><p>Oversized single jersey. Check the measurement chart before ordering.</p><button id="sizeBtn" class="btn light">VIEW SIZE CHART ↗</button></div>
+  <div class="size-chart" aria-label="NCN size chart">
+    <div class="size-chart-head"><span>SIZE</span><span>LENGTH</span><span>WIDTH</span><span>SHOULDER</span><span>SLEEVE</span></div>
+    <div class="size-chart-row"><strong>XS</strong><span>68</span><span>54</span><span>52</span><span>20</span></div>
+    <div class="size-chart-row"><strong>S</strong><span>70</span><span>56</span><span>54</span><span>21</span></div>
+    <div class="size-chart-row"><strong>M</strong><span>72</span><span>58</span><span>56</span><span>22</span></div>
+    <div class="size-chart-row"><strong>L</strong><span>74</span><span>60</span><span>58</span><span>23</span></div>
+    <div class="size-chart-row"><strong>XL</strong><span>76</span><span>62</span><span>60</span><span>24</span></div>
+    <div class="size-note">ALL MEASUREMENTS IN CM · PLEASE ALLOW 1–2 CM DIFFERENCE DUE TO MANUAL MEASUREMENT.</div>
+  </div>
+</section>
+<section id="contact" class="section contact">
+  <div><span class="kicker">06 — CONTACT</span><h2>LET'S<br><i>TALK.</i></h2><p>Questions, orders, collaborations or just want to say what's up?</p></div>
+  <div class="contact-links">
+    <a href="https://wa.me/94702248113" target="_blank"><span>WHATSAPP</span><b>070 224 8113 ↗</b></a>
+    <a href="https://www.instagram.com/ncnclothings/" target="_blank"><span>INSTAGRAM</span><b>@ncnclothings ↗</b></a>
+    <a href="https://www.facebook.com/profile.php?id=61591639746712" target="_blank"><span>FACEBOOK</span><b>NCN Clothing ↗</b></a>
+    <a href="https://www.tiktok.com/@ncn_clothing" target="_blank"><span>TIKTOK</span><b>@ncn_clothing ↗</b></a>
+  </div>
+</section>
+
+</main>
+
+<footer><div class="brand"><span>NCN</span><em>NO CAPTION NEEDED</em></div><p>© 2026 NCN CLOTHING. ALL RIGHTS RESERVED.</p><a href="#home">BACK TO TOP ↑</a></footer>
+
+<div id="drawerOverlay" class="drawer-overlay"></div><div id="cartDrawer" class="drawer"><div class="drawer-head"><h3>YOUR BAG</h3><button class="close-drawer" aria-label="Close bag">CLOSE ×</button></div><div id="cartItems"></div><div class="drawer-total"><span>TOTAL</span><strong id="cartTotal">Rs. 0</strong></div><button id="checkoutBtn" class="btn light full">ORDER VIA WHATSAPP ↗</button><small>Checkout opens WhatsApp with your selected items. Online card payment can be connected when a payment provider is configured.</small></div>
+
+<div id="wishlistDrawer" class="drawer"><div class="drawer-head"><h3>WISHLIST</h3><button class="close-drawer" aria-label="Close wishlist">CLOSE ×</button></div><div id="wishlistItems"></div></div>
+
+<div id="sizeModal" class="modal"><div class="modal-box wide"><button type="button" class="modal-close" data-close-modal aria-label="Close size chart">×</button><span class="kicker">NCN FIT GUIDE</span><h2>SIZE <i>CHART.</i></h2><div class="size-chart"><div class="size-chart-head"><span>SIZE</span><span>LENGTH</span><span>WIDTH</span><span>SHOULDER</span><span>SLEEVE</span></div><div class="size-chart-row"><strong>XS</strong><span>68</span><span>54</span><span>52</span><span>20</span></div><div class="size-chart-row"><strong>S</strong><span>70</span><span>56</span><span>54</span><span>21</span></div><div class="size-chart-row"><strong>M</strong><span>72</span><span>58</span><span>56</span><span>22</span></div><div class="size-chart-row"><strong>L</strong><span>74</span><span>60</span><span>58</span><span>23</span></div><div class="size-chart-row"><strong>XL</strong><span>76</span><span>62</span><span>60</span><span>24</span></div><div class="size-note">ALL MEASUREMENTS IN CM · PLEASE ALLOW 1–2 CM DIFFERENCE DUE TO MANUAL MEASUREMENT.</div></div></div></div>
+
+<div id="productModal" class="modal"><div class="modal-box product-modal"><button type="button" class="modal-close" data-close-modal aria-label="Close product details">×</button><div id="productDetail"></div></div></div>
+
+<div id="toast"></div>
+<script src="script.js"></script>
+
+</body>
+</html>
